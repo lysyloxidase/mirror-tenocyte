@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+title: >-
+  mirror-tenocyte: hypothesis space and experimental design for
+  mixed-chirality collagen-mimetic matrices
+message: >-
+  This repository contains no measurements. It is an experimental
+  design and a record of what is and is not settled. If you use the
+  protocol or the hypothesis decomposition, please cite it as
+  unpublished software/design, not as a source of results.
+type: software
+authors:
+  - alias: lysyloxidase
+repository-code: 'https://github.com/lysyloxidase/mirror-tenocyte'
+abstract: >-
+  An in silico exploration of how mixed-chirality (D/L) collagen or
+  collagen-mimetic peptide matrices would affect tenocyte
+  mechanotransduction. The original question — the phenotype of a cell
+  in a mirror-image environment — dissolves: integrin recognition is
+  stereospecific, so a pure mirror matrix is equivalent to a
+  non-adhesive substrate. What remains is a materials question about
+  MIXTURES.
+
+  The work decomposes collagen assembly into two levels. Level 1
+  (chain to triple helix) is settled: heterochiral triple helices do
+  not form, supported both by a molecular-dynamics penalty of
+  ~7.87 kcal/mol per D residue and by the experimental finding that a
+  single D-Asp prevents triple-helix formation in physiological
+  buffer. Level 2 (triple helix to fibril) is unconstrained by any
+  published data located here, and admits four distinguishable
+  outcomes — self-sorting, growth capping, majority-rules chiral
+  amplification, and racemic enhancement — which differ in the SHAPE
+  of modulus versus composition rather than only its sign.
+
+  The deliverable is PROTOCOL.md: a bench-ready rheology-plus-CD
+  experiment on a D/L collagen-mimetic peptide composition series that
+  separates the four, including several ways the design can be got
+  wrong. All-D collagen itself is not synthesisable (about 2.8x beyond
+  the mirror-image protein synthesis record), which forces the work
+  onto collagen-mimetic peptides.
+
+  The repository also documents four claims that were made and then
+  retracted, and one transferable methodological check: a
+  mechanotransduction ODE cascade built as a monotone chain is
+  provably a reparametrisation of fewer variables and cannot
+  distinguish upstream mechanism, only magnitude.
+keywords:
+  - chirality
+  - collagen-mimetic peptide
+  - self-assembly
+  - mechanotransduction
+  - experimental design
+  - hydrogel rheology
+license: MIT
+version: 0.2.0
+date-released: '2026-09-06'
